@@ -1,0 +1,55 @@
+version = 1
+requires-python = ">=3.7"
+
+[[package]]
+name = "pomodoro-mac-menubar"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "rumps" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "rumps", specifier = ">=0.4.0" }]
+
+[[package]]
+name = "pyobjc-core"
+version = "9.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/48/d9/a13566ce8914746557b9e8637a5abe1caae86ed202b0fb072029626b8bb1/pyobjc-core-9.2.tar.gz", hash = "sha256:d734b9291fec91ff4e3ae38b9c6839debf02b79c07314476e87da8e90b2c68c3", size = 923758 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/04/8f/e005f4863a7257285d5c98365e2d6e2dd717298d829453fc6eb25ac74a11/pyobjc_core-9.2-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:fa674a39949f5cde8e5c7bbcd24496446bfc67592b028aedbec7f81dc5fc4daa", size = 736822 },
+    { url = "https://files.pythonhosted.org/packages/81/49/766832436ba1f992328d6048145a1aaec11f677f1e53e0de658a2b627562/pyobjc_core-9.2-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:bbc8de304ee322a1ee530b4d2daca135a49b4a49aa3cedc6b2c26c43885f4842", size = 731867 },
+    { url = "https://files.pythonhosted.org/packages/08/45/b993d9ac2ea48f020ae6f295c61695818eebf3921d0959a000b8fcb2895e/pyobjc_core-9.2-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:0fa950f092673883b8bd28bc18397415cabb457bf410920762109b411789ade9", size = 734746 },
+    { url = "https://files.pythonhosted.org/packages/b9/75/7750c084871975ead4fdfc4938315709d48ea7952e8a1a2c6247436e0478/pyobjc_core-9.2-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:586e4cae966282eaa61b21cae66ccdcee9d69c036979def26eebdc08ddebe20f", size = 397856 },
+    { url = "https://files.pythonhosted.org/packages/04/f5/f750f72af0fe30c3e30b92f514701fb724db28b860838bc3b83584af01ff/pyobjc_core-9.2-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:41189c2c680931c0395a55691763c481fc681f454f21bb4f1644f98c24a45954", size = 406175 },
+    { url = "https://files.pythonhosted.org/packages/b9/bd/3d85098a8f2cfd725391abf145c37a638717968efa52bfc0568e155a628e/pyobjc_core-9.2-cp38-cp38-macosx_11_0_universal2.whl", hash = "sha256:2d23ee539f2ba5e9f5653d75a13f575c7e36586fc0086792739e69e4c2617eda", size = 726463 },
+    { url = "https://files.pythonhosted.org/packages/35/5e/6d130b175bb4d4635a0e434e7d05be019841ac11c63e9be7eb3c25029346/pyobjc_core-9.2-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:b9809cf96678797acb72a758f34932fe8e2602d5ab7abec15c5ac68ddb481720", size = 737102 },
+]
+
+[[package]]
+name = "pyobjc-framework-cocoa"
+version = "9.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyobjc-core" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/38/91/c54fdffda6d7cfad67ff617f19001163658d50bc72376d1584e691cf4895/pyobjc-framework-Cocoa-9.2.tar.gz", hash = "sha256:efd78080872d8c8de6c2b97e0e4eac99d6203a5d1637aa135d071d464eb2db53", size = 6170134 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d7/b3/e9c6d3e8d53453567805ca461cf52a08807ca2c860c1364c27dc10cdc67e/pyobjc_framework_Cocoa-9.2-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:9e02d8a7cc4eb7685377c50ba4f17345701acf4c05b1e7480d421bff9e2f62a4", size = 390521 },
+    { url = "https://files.pythonhosted.org/packages/04/0a/1bb7500d725593fa035b44c5d16b95c0b80d501db3ce1c2e97f47be23c69/pyobjc_framework_Cocoa-9.2-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:3b1e6287b3149e4c6679cdbccd8e9ef6557a4e492a892e80a77df143f40026d2", size = 390498 },
+    { url = "https://files.pythonhosted.org/packages/e0/f6/ecbc6323aa12df79acdaf8a75f7bb93d273b6dcd0c5b65658c2505bbc977/pyobjc_framework_Cocoa-9.2-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:312977ce2e3989073c6b324c69ba24283de206fe7acd6dbbbaf3e29238a22537", size = 390601 },
+    { url = "https://files.pythonhosted.org/packages/fa/f1/d3d3528d1d62d3e21211bcb8bd6bfe1b8c2815d700eb986fdb1f37de9c7d/pyobjc_framework_Cocoa-9.2-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:aae7841cf40c26dd915f4dd828f91c6616e6b7998630b72e704750c09e00f334", size = 284387 },
+    { url = "https://files.pythonhosted.org/packages/9b/e2/49ea296127184f8b578838ba0d3d170abb75c23760d940f952df0fe0e132/pyobjc_framework_Cocoa-9.2-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:739a421e14382a46cbeb9a883f192dceff368ad28ec34d895c48c0ad34cf2c1d", size = 285108 },
+    { url = "https://files.pythonhosted.org/packages/15/10/0d46760671b5fce9e494db4dca3a976cb0ea4feba1ad8ef489082a09b253/pyobjc_framework_Cocoa-9.2-cp38-cp38-macosx_11_0_universal2.whl", hash = "sha256:32d9ac1033fac1b821ddee8c68f972a7074ad8c50bec0bea9a719034c1c2fb94", size = 390526 },
+    { url = "https://files.pythonhosted.org/packages/64/09/d0eb252549b3009f008c8415c9739a9c726ddfec9adc1aa92b6a8dec0efe/pyobjc_framework_Cocoa-9.2-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:b236bb965e41aeb2e215d4e98a5a230d4b63252c6d26e00924ea2e69540a59d6", size = 390462 },
+]
+
+[[package]]
+name = "rumps"
+version = "0.4.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyobjc-framework-cocoa" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b2/e2/2e6a47951290bd1a2831dcc50aec4b25d104c0cf00e8b7868cbd29cf3bfe/rumps-0.4.0.tar.gz", hash = "sha256:17fb33c21b54b1e25db0d71d1d793dc19dc3c0b7d8c79dc6d833d0cffc8b1596", size = 39257 }

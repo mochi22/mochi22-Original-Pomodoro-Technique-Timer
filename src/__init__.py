@@ -1,0 +1,5 @@
+__title__ = 'pomodoro_mac_menubar'
+__version__ = '0.1.0'
+__author__ = 'kuraryu'
+__license__ = ''
+__copyright__ = 'Copyright 2024 kuraryu'
